@@ -1,0 +1,72 @@
+image: gitlab.n2rtechnologies.com:5050/nurulhasan/broom-service
+
+services:
+  - mysql:5.7
+
+variables:
+  MYSQL_DATABASE: broom-service
+  MYSQL_ROOT_PASSWORD: Temp@@9921
+  DB_HOST: mysql
+  DB_USERNAME: root
+
+stages:
+  - test
+  - deploy_staging
+  - deploy_production
+
+sonarqube-check:
+  image: 
+    name: sonarsource/sonar-scanner-cli:latest
+    entrypoint: [""]
+  variables:
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+    GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
+  cache:
+    key: "${CI_JOB_NAME}"
+    paths:
+      - .sonar/cache
+  script: 
+    - sonar-scanner
+  allow_failure: true
+  only:
+    - production # or the name of your main branch
+
+unit_test:
+  stage: test
+  script:
+    - cp .env.example .env
+    - composer install
+    - php artisan key:generate
+    - php artisan migrate:fresh --seed 
+    - vendor/bin/phpunit
+
+deploy_development:
+  stage: deploy_staging
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - ~/.composer/vendor/bin/dep deploy development
+  environment:
+    name: production
+    url: http://broom-service.n2rtech.com/
+  only:
+    - development
+
+deploy_production:
+  stage: deploy_production
+  script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_PRIVATE_KEY_LIVE")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+    - ~/.composer/vendor/bin/dep deploy production
+  environment:
+    name: production
+    url: https://crm.broomservice.co.il/
+  only:
+    - main

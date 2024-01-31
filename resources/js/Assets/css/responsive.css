@@ -1,0 +1,715 @@
+@media (min-width: 1300px) and (max-width: 5000px){
+.custom-container {
+    width: 1280px;
+    max-width: 1280px;
+}
+}
+@media (min-width: 768px) and (max-width: 5000px){
+.hidden-xl{
+    display: none;
+}
+.acptButn{
+    margin-top: 75px;
+}
+}
+@media (max-width: 767px){
+.hidden-xs,.arr{
+    display: none;
+}
+.crt-jb.responsiveTable tbody tr td:last-child .tdBefore{
+    display: block;
+    position: unset;
+}
+.job-listing-page .search-data{
+    margin-top: 16px;
+}
+.job-buttons{
+    margin-top: 10px;
+}
+.job-buttons button{
+    font-size: 13px !important;
+    margin-bottom: 7px;
+}
+.getjobslist select{
+    font-size: 11px !important;
+    height: unset !important;
+    padding: 4px !important;
+}
+.reportModal{
+    min-width: 158px;
+    background: #075182;
+    border: 1px solid #075182;
+    color: #fff;
+}
+.navbar-toggler{
+    border: 1px solid #ccc;
+    padding: 3px 8px;
+    margin-top: 10px;
+    float: right;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 10px 15px 10px 5px;
+    font-size: 16px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    max-width: 96%;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item{
+    font-size: 15px;
+    font-family: 'Qanelas SemiBold';
+}
+.home-banner .caption h1{
+    font-size: 27px;
+}
+.home-banner .caption p{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+    font-size: 14px;
+}
+.home-banner .search-location input{
+    min-width: unset;
+    height: 40px;
+    font-size: 14px;
+}
+.home-banner .search-location input::-webkit-input-placeholder {
+    font-size: 14px !important;
+}
+.home-banner .search-location input::-moz-placeholder {
+    font-size: 14px !important;
+}
+.home-banner .search-location input::-ms-placeholder {
+    font-size: 14px !important;
+}
+.home-banner .search-location input::placeholder {
+    font-size: 14px !important;
+}
+.home-banner .search-location{
+    display: block;
+}
+.home-banner .search-location .input-group-prepend{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home-banner .search-location .dishSearch{
+    display: block;
+    width: 100%;
+    min-width: 331px;
+    margin-bottom: 10px;
+}
+.home-banner .search-location .forSearch{
+    display: block;
+    width: 100%;
+    background: no-repeat;
+    padding: 0;
+}
+.home-banner .search-location .forSearch a,  .home-banner .search-location .forSearch button{
+    height: 40px;
+    font-family: 'Qanelas SemiBold';
+}
+.home-banner .spanMark{
+    padding: 9px 3px 7px 5px;
+}
+.home-banner .spanMark img{
+    max-width: 20px;
+}
+.home-banner .caption {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.cuisines h2, .featured h2{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.cuisines h6, .featured h6{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+.fBox {
+    margin-bottom: 25px;
+}
+.featured ul li span{
+    font-weight: normal;
+    font-size: 11px;
+    padding: 3px;
+}
+.featured ul li span img{
+    position: relative;
+    top: -1px;
+    max-width: 13px;
+}
+.featured ul{
+    margin-bottom: 5px;
+}
+.featured h5{
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    margin-bottom: 3px;
+    line-height: 13px;
+    margin-top: 8px;
+}
+.featured p{
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+}
+.featured h6{
+    margin-bottom: 5px;
+}
+.owner{
+    margin-top: 10px;
+}
+.owner h3{
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 15px;
+}
+.owner p{
+    font-size: 14px;
+}
+.owner .btn-danger{
+    padding: 7px 20px;
+    font-size: 16px;
+}
+.popular h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 21px;
+}
+.popular .pBox ul li h5{
+    font-size: 14px;
+}
+.popular .pBox ul li p{
+    font-size: 12px;
+}
+.popular .pBox ul li:last-child{
+    display: none;
+}
+.popular .pBox{
+    border-radius: 6px;
+    padding: 10px;
+}
+.popular .pBox ul li:first-child {
+    min-width: unset;
+}
+footer{
+    padding-top: 15px;
+}
+footer .fLogo img{
+    max-width: 230px;
+    margin-bottom: 20px;
+}
+footer .information h5{
+    font-size: 14px;
+}
+footer .information ul li a{
+    font-size: 13px;
+}
+footer .information ul li {
+    line-height: 22px;
+}
+footer .information {
+    margin-bottom: 20px;
+}
+footer hr{
+    margin-top: 0;
+}
+footer .copyright{
+    font-size: 12px;
+}
+.search-page h1{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.filter label{
+    font-size: 14px;
+}
+.filter input::-webkit-input-placeholder {
+    font-size: 14px !important;
+}
+.filter input::-moz-placeholder {
+    font-size: 14px !important;
+}
+.filter input::-ms-placeholder {
+    font-size: 14px !important;
+}
+.filter input::placeholder {
+    font-size: 14px !important;
+}
+.filter input{
+    font-size: 14px !important;
+    height: 40px;
+}
+.filter .btn-danger{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 0;
+}
+.filter .rs-picker-toggle-placeholder{
+    font-family: 'Qanelas Regular';
+    font-size: 14px;
+}
+.search-page .featured {
+    height: unset;
+    overflow-y: unset;
+    overflow-x: unset !important;
+}
+.search-page .filter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-filter{
+    display: none;
+}
+.search-buttons button{
+    font-family: 'Qanelas SemiBold';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.search-buttons button:nth-child(2){
+    float: right;
+}
+.Rbanner h1{
+    font-size: 26px;
+    margin-top: 15px;
+}
+.Rbanner .rcuisine li{
+    font-size: 12px;
+}
+.Rbanner .facilities li label{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Qanelas SemiBold';
+}
+.Rbanner .facilities li span {
+    line-height: 15px;
+    font-size: 12px;
+}
+.Rbanner .callDetails h4{
+    font-size: 20px;
+}
+.Rbanner .callDetails ul li a{
+    font-size: 14px;
+}
+.redTabs.nav-tabs .nav-item {
+    margin-right: 5px;
+}
+.redTabs.nav-tabs .nav-link{
+    padding: 6px 7px;
+    font-size: 15px;
+}
+.menuList .nav a{
+    font-size: 15px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.menuList .menuBox h5{
+    font-size: 14px;
+}
+.pillsMenu{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.details-page .description p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.lightbox-gallery .col-sm-4 {
+    margin-bottom: 20px;
+}
+.review-title h3{
+    font-size: 21px;
+}
+.user-review .starlines i{
+    margin-right: 1px;
+    font-size: 14px;
+}
+.user-review h5{
+    font-size: 16px;
+}
+.user-review p{
+    font-size: 13px;
+}
+.announcements h5, #main #faq .card .card-header .btn-header-link{
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.announcements p{
+    font-size: 14px;
+}
+.detailFAQ h2{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#main #faq .card .card-body {
+    padding: 10px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.partner-banner h1{
+    font-size: 26px;
+    padding-top: 30px;
+    line-height: 20px;
+}
+.partner-banner p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.partner-banner .cta a{
+    font-size: 15px;
+    margin-bottom: 40px;
+    padding: 6px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.joining p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+.start h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.start .sBox i{
+    font-size: 30px;
+    padding: 20px;
+}
+.start .sBox h4{
+    font-size: 16px;
+}
+.start .sBox h5{
+    font-size: 18px;
+    line-height: 15px;
+}
+.start .sBox p{
+    font-size: 14px;
+}
+.start .sBox{
+    padding: 10px;
+    min-height: unset;
+    margin-bottom: 20px;
+}
+.journey h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.journey a{
+    font-size: 16px;
+    padding: 6px 20px;
+}
+.journey {
+    border: 2px solid #e6e8eb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+}
+#loginPage .formSide {
+    padding: 15px;
+}
+.trackImg{
+    margin-bottom: 20px;
+}
+#loginPage .formSide img {
+    margin-bottom: 0px;
+}
+.support-banner h1{
+    padding-top: 20px;
+    font-size: 26px;
+    line-height: 22px;
+}
+.support-banner p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.touch h2{
+    font-size: 24px;
+}
+/* Admin Responsive CSS */
+#column-left{
+    display: none;
+}
+#column-left + #content, #column-left + #content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dashBox h4{
+    right: 30px;
+    margin-left: unset;
+}
+.mobileNav .navbar{
+    position: unset;
+    border-bottom: 1px solid #e6e8eb;
+}
+.mobileNav .nav-item{
+    background: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #e6e8eb;
+}
+.mobileNav .nav-item .card-header{
+    background: unset;
+    border-radius: unset;
+    border: unset;
+}
+.mobileNav .nav-item a{
+    color: #343A40;
+    padding: 13px 15px;
+    display: block;
+    font-size: 15px; 
+    text-align: left;
+}
+.mobileNav .nav-item a:hover{
+    text-decoration: none;
+}
+.mobileNav .nav-item a img{
+    margin-right: 6px;
+}
+.mobileNav ul li a i{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.mobileNav .navbar-collapse.show {
+    left: 0;
+    transition: left .1s ease-in-out;
+}
+.mobileNav .navbar-collapse {
+    height: 100%;
+    left: 0;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    width: 75%;
+    z-index: 99999;
+    background: #f9f9fc;
+    border-right: 1px solid #e6e8eb;
+}
+.mobileNav .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0.1s ease;
+}
+
+.mobileNav .navbar-collapse.show {
+    left: 0;
+    transition: left 100ms ease-in-out;
+}
+
+.mobileNav .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 100ms ease-in-out;
+}
+.page-title{
+    font-size: 21px;
+    border-bottom: none;
+}
+.page-title::after{
+    display: none;
+}
+.titleBox{
+    border-bottom: none;
+}
+.titleBox .addButton{
+    margin-top: 25px;
+    font-size: 14px;
+}
+#content .nav-tabs{
+    display: inline-block !important;
+    width: 100%;
+}
+#content .nav-tabs .nav-item {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+#content .nav-tabs .nav-link{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.primary-details .usertype label > input + .forcustom{
+    padding: 9px 25px;
+    font-size: 13px;
+}
+.imageResult img {
+    max-width: 300px;
+}
+.colFive .col-sm-3 {
+    width: 50%;
+    flex: 0 0 50%;
+}
+#content .form-group input, #content .form-group select{
+    height: 40px;
+    font-size: 14px;
+}
+.user-page .usertype li{
+    display: block;
+    padding-left: 15px;
+}
+.user-page .usertype .status-type{
+    position: absolute;
+}
+.user-page .usertype label > input + .forcustom{
+    min-width: 200px;
+    display: block; 
+}
+.cuisines h2, .featured h2{
+    display: none;
+}
+.navbar{
+    background: #fff;
+    padding: 0px 10px;
+}
+.navbar-brand img{
+    max-width: 210px;
+}
+.mobileNav .nav-item .commonDropdown li{
+    padding: 0;
+}
+.commonDropdown ul li a i{
+    margin-right: 5px !important;
+}
+.commonDropdown ul li a{
+    padding: 8px 7px !important;
+    font-size: 14px !important;
+}
+.search-data{
+    float: unset;
+}
+.search-data input{
+    margin-top: 5px;
+}
+.titleBox .addButton{
+    margin-top: 5px;
+}
+.client-view h1 {
+    font-size: 24px !important;
+}
+.min-414 {
+    min-height: unset;
+}
+#content .nav-tabs{
+    display: flex !important;
+}
+.ClientHistory.p-4{
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+#content .nav-tabs .nav-item{
+    margin-bottom: 0;
+}
+#content .nav-tabs .nav-link{
+    padding: 7px 15px;
+}
+.xs-float-none{
+    float: none !important;
+}
+.fc .fc-toolbar-title{
+    font-size: 15px !important;
+}
+.fc .fc-button{
+    padding: 6px 6px !important;
+    font-size: 13px !important;
+}
+.AddOffer table .form-control{
+    min-width: 140px;
+}
+.AddOffer .text-right .saveBtn {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.card.mt-3 .tab-content{
+    padding: 0;
+    border: none;   
+}
+.ViewOffer {
+    padding: 0;
+}
+#tab-worker-availability .tab-content{
+    padding: 0;
+    border: none;
+}
+#tab-doucments .btn-pink{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.settings-page .nav-tabs .nav-link{
+    margin-left: 6px !important;
+    padding: 6px !important;
+    font-size: 12px !important;
+}
+.responsiveTable tbody tr td:last-child button.dropdown-toggle{
+    margin-top: 25px;
+}
+.swatch{
+    margin-right: 6px;
+}
+.getjobslist{
+    padding: 0 !important;
+}
+.getjobslist table th{
+    font-size: 12px;
+    font-weight: 500;
+}
+.getjobslist table td, .getjobslist table tr th{
+    font-size: 11px;
+}
+.getjobslist table h6{
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 15px;
+}
+.mBlue{
+    color: #fff;
+    font-size: 11px;
+    display: block;
+    padding: 2px 4px;
+    font-weight: normal;
+}
+.getjobslist table select{
+    font-size: 12px;
+    height: unset;
+}
+} 
+.ofrTitle{ 
+    background: #70809014!important;
+    color: #1b3f79;
+}
+
+.arr{
+    font-size: 26px;
+    font-weight: bolder;
+    position: absolute;
+    margin-inline-start: 10px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+.hpoint{
+    font-size: 20px;
+    margin-inline-end: 4px;
+}
+
+.jorder{
+
+    background: #2481e157;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.jinv{
+
+    background: #24e12a57;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
